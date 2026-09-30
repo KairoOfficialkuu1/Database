@@ -5,5 +5,13 @@
     "role": "donatur",
     "expiredDate": "2027-01-07",
     "pairId": "257DD52E452AF01C"
+  },
+  {
+    "username": "Nan",
+    "password": "1",
+    "role": "developer",
+    "expiredDate": "2029-06-25",
+    "pairId": "C537884CF32048B6",
+    "uid": "C635E2CE71C85251"
   }
 ]
