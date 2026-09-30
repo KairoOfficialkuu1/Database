@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "username": "Kairo",
+    "password": "1",
+    "role": "donatur",
+    "expiredDate": "2027-01-07"
+  }
+]
