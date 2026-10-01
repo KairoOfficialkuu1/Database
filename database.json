@@ -14,5 +14,13 @@
     "expiredDate": "2029-06-25",
     "pairId": "C537884CF32048B6",
     "uid": "C635E2CE71C85251"
+  },
+  {
+    "username": "BinzzXBug",
+    "password": "15551",
+    "role": "admin",
+    "expiredDate": "2029-06-26",
+    "pairId": "39CDC006F2DFFD62",
+    "uid": "868D5D63EA771DB9"
   }
 ]
