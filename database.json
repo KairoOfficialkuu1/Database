@@ -22,5 +22,13 @@
     "expiredDate": "2029-06-26",
     "pairId": "39CDC006F2DFFD62",
     "uid": "868D5D63EA771DB9"
+  },
+  {
+    "username": "Anas",
+    "password": "1234",
+    "role": "reseller",
+    "expiredDate": "2029-06-26",
+    "pairId": "4D106FEC28DE494C",
+    "uid": "0F8709A2104D524F"
   }
 ]
