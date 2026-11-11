@@ -58,6 +58,24 @@ jobs:
             echo "PROJECT_DIR=$ROOT" >> "$GITHUB_ENV"
           fi
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Pillow
+        run: pip install Pillow
+
+      - name: Generate App Icons
+        working-directory: ${{ env.PROJECT_DIR }}
+        run: |
+          if [ -f "generate_icons.py" ]; then
+            python3 generate_icons.py
+            echo "Icons generated!"
+          else
+            echo "generate_icons.py not found, skipping icon generation"
+          fi
+
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
